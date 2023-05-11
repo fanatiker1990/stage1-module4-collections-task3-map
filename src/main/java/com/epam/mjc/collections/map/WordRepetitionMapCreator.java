@@ -20,9 +20,4 @@ public class WordRepetitionMapCreator {
         }
         return wordCount;
     }
-
-    public static void main(String[] args) {
-        WordRepetitionMapCreator s = new WordRepetitionMapCreator();
-        System.out.println(s.createWordRepetitionMap("hello word in lOwEr cAsE, HELLO WORD in UpPeR CaSe."));
-    }
 }
